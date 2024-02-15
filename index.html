@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horario escolar</title>
+    <link rel="stylesheet" href="colores.css">
+    <style>
+        table { 
+            width: 100%;
+            text-align: center; 
+            color: white;
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        td{
+            border: 1px solid black;
+        }
+        h1{text-align: center; color: white;}
+        h2{color: white;}
+    </style>
+    
+</head>
+<body background="universo.jpg", style="background-size: 100%;">
+<h1>SMX2</h1>
+<h2>Horario de clases</h2>
+
+<table border="ipx" >
+    <thead>
+        <tr id="inicio">
+            <td>Horas</td>
+            <td>Lunes</td>
+            <td>Martes</td>
+            <td>Miercoles</td>
+            <td>Jueves</td>
+            <td>Viernes</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td id="horas">15:00 - 15:55</td>
+            <td rowspan="2", id="sor">Sistemas Operativos de Red</td>
+            <td rowspan="2", id="sin2">Sintesis</td>
+            <td rowspan="2", id="vacio"></td>
+            <td rowspan="2", id="sdr">Servicios de Red</td>
+            <td rowspan="2", id="apw">Aplicaiones Web</td>
+        </tr>
+        <tr>
+            <td id="horas">15:55 - 16:50</td>
+        </tr>
+        <tr>
+            <td id="horas">16:50 - 17:45</td>
+            <td rowspan="2", id="sin1">Sintesis</td>
+            <td rowspan="2", id="sor">Sistemas Operativos de Red</td>
+            <td id="tut">Tutoria</td>
+            <td id="sin1">Sintesis</td>
+            <td rowspan="2", id="ing">Ingles</td>
+        </tr>
+        <tr>
+            <td id="horas">17:45 - 18:40</td>
+            <td id="apw">Aplicaiones Web</td>
+            <td id="ing">Ingles</td>
+        </tr>
+        <tr>
+            <td id="horas">18:40 - 19:10</td>
+            <td colspan="5", style="background-color: rgba(220, 220, 220,0.5);">Patio</td>
+        </tr>
+        <tr>
+            <td id="horas">19:10 - 20:05</td>
+            <td rowspan="2", id="sdr">Servicios de Red</td>
+            <td rowspan="2", style="background-color: rgba(0, 0, 255,0.5);">Seguridad</td>
+            <td rowspan="2", id="sin1"">Sintesis</td>
+            <td id="sdr">Servicios de red</td>
+            <td rowspan="2", id="vacio"></td>
+        </tr>
+        <tr>
+            <td id="horas">20:05 - 21:00</td>
+            <td id="vacio"></td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr id="inicio"">
+            <td>horas</td>
+            <td>lunes</td>
+            <td>martes</td>
+            <td>miercoles</td>
+            <td>jueves</td>
+            <td>viernes</td>
+        </tr>
+    </tfoot>
+
+
+</table>
+
+</body>
+</html>
