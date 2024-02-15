@@ -1,2 +1,0 @@
-# calendario
-horario de clases
